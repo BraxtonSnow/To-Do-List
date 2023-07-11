@@ -1,0 +1,240 @@
+body {
+  border: solid 1px green;
+  margin: 0px;
+  width: 99vw;
+}
+body .main-page-container {
+  border: solid 1px green;
+  margin: 0px;
+}
+body .main-page-container .title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  border: solid 1px green;
+  margin: 0px;
+  font-size: 22px;
+  background: linear-gradient(45deg, hsl(0, 0%, 0%) 0%, hsl(29, 78%, 23%) 100%);
+  color: rgb(208, 195, 195);
+}
+body .main-page-container .title-container h1 {
+  border: solid 1px green;
+  margin: 0px;
+}
+body .main-page-container .image-content {
+  border: solid 1px green;
+  margin: 0px;
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+}
+body .main-page-container .image-content img {
+  border: solid 1px green;
+  margin: 0px;
+  width: 98.88vw;
+  height: 990px;
+}
+body .main-page-container .nav-bar-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: solid 1px green;
+  margin: 0px;
+  height: 100px;
+}
+body .main-page-container .nav-bar-container button {
+  border: solid 1px green;
+  margin: 0px;
+  width: 12%;
+  height: 60px;
+  cursor: pointer;
+  font-size: 22px;
+  background-color: transparent;
+  color: white;
+}
+body .main-page-container .nav-bar-container button:hover {
+  background-color: rgba(127, 255, 212, 0.5);
+  color: white;
+}
+body .main-page-container .main-body-container {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  height: 710px;
+}
+body .main-page-container .main-body-container .show-me-task-container {
+  display: flex;
+  justify-content: center;
+  width: 33.33%;
+}
+body .main-page-container .main-body-container .show-me-task-container .created-task-modal {
+  display: none;
+  width: 81%;
+  height: 70%;
+  background-color: transparent;
+  border: 8px solid black;
+  margin: 5% 1%;
+}
+body .main-page-container .main-body-container .show-me-task-container .created-task-modal .title-name-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 100%;
+  background-color: #9b5431;
+}
+body .main-page-container .main-body-container .show-me-task-container .created-task-modal .title-name-container h1 {
+  margin: 0px;
+}
+body .main-page-container .main-body-container .show-me-task-container .created-task-modal .modal-info-container {
+  width: 99.91%;
+  height: 385px;
+  border-top: 4px solid black;
+  background-color: #fff89c;
+}
+body .main-page-container .main-body-container .show-me-task-container .created-task-modal .modal-info-container .main-info-container {
+  background-color: #fff89c;
+  display: flex;
+  display: block;
+  width: 90%;
+  height: 100%;
+  padding: 5%;
+}
+body .main-page-container .main-body-container .show-me-task-container .created-task-modal .modal-info-container .main-info-container h3 {
+  margin: 0px 5px;
+  height: 20px;
+}
+body .main-page-container .main-body-container .show-me-task-container .created-task-modal .modal-info-container .main-info-container input {
+  height: 17px;
+}
+body .main-page-container .main-body-container .show-me-task-container .created-task-modal .modal-info-container .main-info-container button {
+  margin: 0px 5px;
+  height: 22px;
+  background-color: aquamarine;
+}
+body .main-page-container .main-body-container .show-me-task-container .created-task-modal .modal-info-container .retrieved-info-container {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  height: 95%;
+  margin: 2% 5%;
+}
+body .main-page-container .main-body-container .show-me-task-container .created-task-modal .modal-info-container .select-new-task-button-container {
+  display: flex;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+  background-color: #fff89c;
+}
+body .main-page-container .main-body-container .show-me-task-container .created-task-modal .modal-info-container .select-new-task-button-container button {
+  margin: 0px 35%;
+  background-color: aquamarine;
+}
+body .main-page-container .main-body-container .modal-container {
+  display: none;
+  background-color: tan;
+  border: 15px solid black;
+  margin: 5% 1%;
+  height: 500px;
+  width: 33.33%;
+}
+body .main-page-container .main-body-container .modal-container .title-content {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  border-bottom: 15px solid black;
+}
+body .main-page-container .main-body-container .modal-container .title-content h1 {
+  border: 1px solid green;
+  margin: 5px;
+}
+body .main-page-container .main-body-container .modal-container .title-content .add-item-button {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: 0px;
+}
+body .main-page-container .main-body-container .modal-container .title-content .add-item-button button {
+  background-color: aquamarine;
+}
+body .main-page-container .main-body-container .modal-container .modal-body-content {
+  border: 1px solid green;
+  margin: 0px;
+  height: 425px;
+}
+body .main-page-container .main-body-container .modal-container .modal-body-content .item-div-container {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+}
+body .main-page-container .main-body-container .modal-container .modal-body-content .add-name-info-container {
+  display: none;
+}
+body .main-page-container .main-body-container .modal-container .modal-body-content .add-name-info-container .input-container {
+  display: flex;
+}
+body .main-page-container .main-body-container .modal-container .modal-body-content .add-name-info-container .input-container .label-content {
+  margin: 5px;
+}
+body .main-page-container .main-body-container .modal-container .modal-body-content .add-name-info-container .input-container .label-content h4 {
+  margin: 7px;
+}
+body .main-page-container .main-body-container .modal-container .modal-body-content .add-name-info-container .input-container .input-content {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  width: 100%;
+}
+body .main-page-container .main-body-container .modal-container .modal-body-content .add-name-info-container .input-container .input-content input {
+  margin: 3px;
+}
+body .main-page-container .main-body-container .modal-container .modal-body-content .add-name-info-container .submit-task-button-container {
+  display: flex;
+  justify-content: center;
+}
+body .main-page-container .main-body-container .modal-container .modal-body-content .add-name-info-container .submit-task-button-container button {
+  background-color: aquamarine;
+}
+body .main-page-container .main-body-container .modal-container .modal-body-content .task-holder-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 10px solid red;
+  padding: 5px;
+}
+body .main-page-container .main-body-container .modal-container .modal-body-content .task-holder-container button {
+  width: 95%;
+  height: 40px;
+}
+body .main-page-container .main-body-container .modal-container .modal-body-content .select-task-button-container {
+  display: flex;
+  justify-content: center;
+}
+body .main-page-container .main-body-container .modal-container .modal-body-content .select-task-button-container button {
+  display: none;
+  background-color: aquamarine;
+}
+body .main-page-container .main-body-container .blank-container {
+  border: 1px solid green;
+  width: 33.33%;
+}
+body .main-page-container .footer-container {
+  background: linear-gradient(45deg, hsl(0, 0%, 0%) 0%, hsl(29, 78%, 23%) 100%);
+  height: 100px;
+  border: solid 1px green;
+  margin: 0px;
+}
+body .main-page-container .footer-container .left-content {
+  border: solid 1px green;
+  margin: 0px;
+}
+body .main-page-container .footer-container .center-content {
+  border: solid 1px green;
+  margin: 0px;
+}
+body .main-page-container .footer-container .right-content {
+  border: solid 1px green;
+  margin: 0px;
+}/*# sourceMappingURL=index.css.map */

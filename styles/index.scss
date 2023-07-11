@@ -1,0 +1,259 @@
+body {
+  border: solid 1px green;
+  margin: 0px;
+  width: 99vw;
+  .main-page-container {
+    border: solid 1px green;
+    margin: 0px;
+    .title-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 80px;
+      border: solid 1px green;
+      margin: 0px;
+      font-size: 22px;
+      // background-color: black;
+      background: linear-gradient(
+        45deg,
+        hsla(0, 0%, 0%, 1) 0%,
+        hsla(29, 78%, 23%, 1) 100%
+      );
+      color: rgb(208, 195, 195);
+      h1 {
+        border: solid 1px green;
+        margin: 0px;
+      }
+    }
+    .image-content {
+      border: solid 1px green;
+      margin: 0px;
+      position: absolute;
+      z-index: -1;
+      top: 0px;
+
+      img {
+        border: solid 1px green;
+        margin: 0px;
+        width: 98.88vw;
+        height: 990px;
+      }
+    }
+    .nav-bar-container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      border: solid 1px green;
+      margin: 0px;
+      height: 100px;
+      button {
+        border: solid 1px green;
+        margin: 0px;
+        width: 12%;
+        height: 60px;
+        cursor: pointer;
+        font-size: 22px;
+        background-color: transparent;
+        color: white;
+      }
+      button:hover {
+        background-color: rgba(127, 255, 212, 0.5);
+        // opacity: 0.6;
+        color: white;
+      }
+    }
+    .main-body-container {
+      display: flex;
+      justify-content: center;
+
+      // border: solid 1px green;
+      margin: 0px;
+      height: 710px;
+      .show-me-task-container {
+        display: flex;
+        justify-content: center;
+        // border: 1px solid green;
+        width: 33.33%;
+        .created-task-modal {
+          display: none;
+          width: 81%;
+          height: 70%;
+          background-color: transparent;
+          border: 8px solid black;
+          margin: 5% 1%;
+          .title-name-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 70px;
+            width: 100%;
+            background-color: #9b5431;
+            h1 {
+              margin: 0px;
+            }
+          }
+          .modal-info-container {
+            width: 99.91%;
+            height: 385px;
+            border-top: 4px solid black;
+
+            background-color: #fff89c;
+            .main-info-container {
+              background-color: #fff89c;
+              display: flex;
+              display: block;
+              width: 90%;
+              height: 100%;
+              padding: 5%;
+              h3 {
+                margin: 0px 5px;
+                height: 20px;
+              }
+              input {
+                height: 17px;
+              }
+              button {
+                margin: 0px 5px;
+                height: 22px;
+                background-color: aquamarine;
+              }
+            }
+            .retrieved-info-container {
+              display: flex;
+              justify-content: center;
+              width: 90%;
+              height: 95%;
+              margin: 2% 5%;
+            }
+            .select-new-task-button-container {
+              display: flex;
+              display: none;
+              justify-content: center;
+              align-items: center;
+              height: 10%;
+              background-color: #fff89c;
+              button {
+                margin: 0px 35%;
+                background-color: aquamarine;
+              }
+            }
+          }
+        }
+      }
+      .modal-container {
+        display: none;
+        background-color: tan;
+        border: 15px solid black;
+        margin: 5% 1%;
+        height: 500px;
+        width: 33.33%;
+
+        .title-content {
+          display: flex;
+          align-items: center;
+          height: 60px;
+          border-bottom: 15px solid black;
+          h1 {
+            border: 1px solid green;
+            margin: 5px;
+          }
+          .add-item-button {
+            display: flex;
+            justify-content: center;
+            width: 50%;
+            margin: 0px;
+            button {
+              background-color: aquamarine;
+            }
+          }
+        }
+        .modal-body-content {
+          border: 1px solid green;
+          margin: 0px;
+          height: 425px;
+
+          .item-div-container {
+            width: 100%;
+            height: 50px;
+            background-color: black;
+          }
+          .add-name-info-container {
+            display: none;
+
+            .input-container {
+              display: flex;
+              .label-content {
+                margin: 5px;
+                h4 {
+                  margin: 7px;
+                }
+              }
+              .input-content {
+                display: flex;
+                flex-direction: column;
+                margin: 5px;
+                width: 100%;
+                input {
+                  margin: 3px;
+                }
+              }
+            }
+            .submit-task-button-container {
+              display: flex;
+              justify-content: center;
+              button {
+                background-color: aquamarine;
+              }
+            }
+          }
+          .task-holder-container {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            border: 10px solid red;
+            padding: 5px;
+            button {
+              width: 95%;
+              height: 40px;
+            }
+          }
+          .select-task-button-container {
+            display: flex;
+            justify-content: center;
+            button {
+              display: none;
+              background-color: aquamarine;
+            }
+          }
+        }
+      }
+      .blank-container {
+        border: 1px solid green;
+        width: 33.33%;
+      }
+    }
+    .footer-container {
+      // background-color: black;
+      background: linear-gradient(
+        45deg,
+        hsla(0, 0%, 0%, 1) 0%,
+        hsla(29, 78%, 23%, 1) 100%
+      );
+      height: 100px;
+      border: solid 1px green;
+      margin: 0px;
+      .left-content {
+        border: solid 1px green;
+        margin: 0px;
+      }
+      .center-content {
+        border: solid 1px green;
+        margin: 0px;
+      }
+      .right-content {
+        border: solid 1px green;
+        margin: 0px;
+      }
+    }
+  }
+}
